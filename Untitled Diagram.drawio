@@ -50,20 +50,38 @@
         <mxCell id="XcqkJUGEVSf3gRGwsTBn-12" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="630" y="320" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XcqkJUGEVSf3gRGwsTBn-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XcqkJUGEVSf3gRGwsTBn-13" target="XcqkJUGEVSf3gRGwsTBn-15">
+        <mxCell id="XcqkJUGEVSf3gRGwsTBn-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XcqkJUGEVSf3gRGwsTBn-13" target="XcqkJUGEVSf3gRGwsTBn-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XcqkJUGEVSf3gRGwsTBn-13" value="Compute speed" style="rounded=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="288.75" y="650" width="222.5" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="XcqkJUGEVSf3gRGwsTBn-15" value="Compute speed" style="rounded=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="288.75" y="710" width="222.5" height="35" as="geometry" />
+        <mxCell id="XcqkJUGEVSf3gRGwsTBn-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XcqkJUGEVSf3gRGwsTBn-15" target="XcqkJUGEVSf3gRGwsTBn-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcqkJUGEVSf3gRGwsTBn-15" value="Update u and v" style="rounded=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="288.75" y="830" width="222.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="XcqkJUGEVSf3gRGwsTBn-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XcqkJUGEVSf3gRGwsTBn-17" target="XcqkJUGEVSf3gRGwsTBn-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XcqkJUGEVSf3gRGwsTBn-17" value="Plot Results" style="rounded=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="530" y="432.5" width="222.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="XcqkJUGEVSf3gRGwsTBn-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XcqkJUGEVSf3gRGwsTBn-21" target="XcqkJUGEVSf3gRGwsTBn-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcqkJUGEVSf3gRGwsTBn-21" value="Compute CL and CD" style="rounded=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="288.75" y="710" width="222.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="XcqkJUGEVSf3gRGwsTBn-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XcqkJUGEVSf3gRGwsTBn-23" target="XcqkJUGEVSf3gRGwsTBn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcqkJUGEVSf3gRGwsTBn-23" value="Compute lift and drag" style="rounded=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="288.75" y="770" width="222.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="XcqkJUGEVSf3gRGwsTBn-27" value="Update x and y" style="rounded=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="288.75" y="890" width="222.5" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
